@@ -1,0 +1,724 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+/* Styling Body */
+body {
+  overflow-x: hidden;
+  /* Hide horizontal scrollbar */
+  font-family: "Baloo Bhai 2", cursive;
+}
+
+/* Styling the Nav-bar */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(15, 30, 238);
+}
+
+li {
+  display: inline-block;
+  white-space: nowrap;
+}
+
+li a {
+  display: block;
+  font-size: 17px;
+  color: white;
+  text-align: center;
+  margin-left: 10px;
+  padding: 10px 16px;
+  border-radius: 2px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #15abec;
+  border-radius: 10px;
+  transform: scale(1.1);
+}
+
+li #cmm {
+  margin-left: 500px;
+}
+
+.active {
+  border-radius: 10px;
+  background-color: rgb(36, 201, 30);
+}
+
+.active:hover {
+  background-color: rgb(36, 201, 30);
+  text-decoration: none;
+  transform: none;
+}
+
+li:last-child {
+  margin-left: 230px;
+  background-color: #05eeff9b;
+  color: black;
+  border-radius: 10px;
+}
+
+/* Designing the box model images */
+.container {
+  position: relative;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 10px;
+  margin-top: -50px;
+  color: rgb(20, 20, 20);
+  background-color: #b4acb1;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(19, 23, 212, 0.8);
+  color: aqua;
+}
+
+/* Designing numbertext */
+.numbertext {
+  color: black;
+  font-size: 38px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 10;
+  padding-left: 505px;
+  padding-right: 495px;
+  background-color: #ffffff75;
+}
+
+.world {
+  color: red;
+}
+
+/* Container for captions */
+.caption-container {
+  text-align: center;
+  color: rgb(10, 41, 244);
+  font-weight: bold;
+  background-color: rgb(144 235 247);
+  padding: 0px 16px;
+  padding: 20px;
+}
+
+#caption {
+  color: rgb(58, 0, 249);
+  font-size: 27px;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+/* Designing form group */
+.form-group {
+  background-color: rgb(15, 30, 238);
+  padding-bottom: 45px;
+  padding-top: 30px;
+  padding-left: 300px;
+  font-size: large;
+  color: white;
+}
+
+#block1 {
+  margin-left: 100px;
+}
+
+.block {
+  padding-left: 20px;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 17px;
+  background-color: rgb(0, 195, 255);
+  color: black;
+  cursor: pointer;
+}
+
+#places {
+  padding-left: 35px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: medium;
+  padding-right: 32px;
+  background-color: rgb(0, 195, 255);
+  color: black;
+  padding-bottom: 9px;
+  cursor: pointer;
+}
+
+#tit {
+  padding-left: 300px;
+  font-size: 26px;
+}
+
+.btn3 {
+  background-color: rgb(21, 226, 31);
+  border: rgb(21, 226, 31);
+  color: white;
+  padding: 8px 15px;
+  text-align: center;
+  font-size: 20px;
+  border-radius: 12px;
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+.btn3:hover {
+  background-color: rgb(6, 184, 15);
+}
+
+.desc {
+  font-size: large;
+  color: black;
+  padding-left: 170px;
+}
+
+#sss {
+  padding-left: 50px;
+}
+
+/* Image gallery */
+.gallery {
+  float: left;
+  width: 400px;
+  margin-left: 20px;
+  padding-left: 50px;
+  height: 250px;
+  margin-bottom: 30px;
+}
+
+.contain {
+  padding-top: 30px;
+}
+
+#destiny {
+  font-size: 30px;
+}
+
+.destination {
+  padding-top: 30px;
+  color: rgb(44, 4, 221);
+  padding-left: 570px;
+}
+
+.para {
+  padding-top: 10px;
+  font-size: medium;
+  color: black;
+  padding-left: 320px;
+}
+
+p {
+  font-size: 20px;
+  color: rgb(128, 26, 0);
+}
+
+.gimage:hover {
+  transform: translateY(-10%);
+}
+
+/* Designing the Projects section */
+.projects {
+  padding-top: 590px;
+}
+
+.pcaption {
+  display: flex;
+  justify-content: center;
+  color: #1405e0;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.tours {
+  padding-top: 20px;
+  padding-left: 200px;
+  padding-right: 100px;
+  color: brown;
+  font-size: 20px;
+  margin-bottom: 50px;
+}
+
+.pwrapper {
+  margin: 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  width: 98%;
+}
+
+.pcard {
+  -webkit-box-flex: calc(100% / 4);
+  -ms-flex: calc(100% / 4) 0 1;
+  flex: calc(100% / 4) 1 1;
+  background-color: #84d9ee;
+  border: 2px solid blue;
+}
+
+.pcard:hover {
+  background-color: #3df4b1;
+  -webkit-transform: translateY(-20px);
+  transform: translateY(-20px);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+
+.pimg {
+  width: 334px;
+  height: 200px;
+}
+
+.pbox {
+  padding: 46px 35px 0 44px;
+}
+
+.pname {
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #171796;
+  margin-bottom: 20px;
+  margin-top: -20px;
+}
+
+.pbtn {
+  font-family: Georgia;
+  font-size: 15px;
+  text-transform: uppercase;
+  border: none;
+  color: white;
+  background-color: rgb(248, 83, 24);
+  padding: 14px 26px;
+  border-radius: 5px;
+  margin-top: 15px;
+  margin-bottom: 37px;
+}
+
+.pbtn:hover {
+  color: #ffffff;
+  background-color: purple;
+}
+
+.pinfo {
+  color: rgb(255, 17, 136);
+  font-size: 17px;
+  margin-bottom: 15px;
+  font-weight: 400;
+  line-height: 23.58px;
+}
+
+.delete {
+  font-size: 17px;
+  color: blue;
+}
+
+.del1 {
+  font-size: 20px;
+  color: red;
+}
+
+/* Features section styling */
+.features {
+  margin: 5px;
+  border: 1px solid rgb(30, 8, 223);
+  border-radius: 16px;
+  float: left;
+  width: 350px;
+  display: block;
+  margin-left: 40px;
+  height: 280px;
+  margin-bottom: 20px;
+  background-color: rgb(52, 221, 243);
+}
+
+.features:hover {
+  background-color: #39e4bcfe;
+  transform: scale(1.1);
+}
+
+.features img {
+  width: 60%;
+  height: 50%;
+  padding-left: 150px;
+  padding-top: 30px;
+  padding-bottom: 15px;
+}
+
+.dd {
+  text-align: center;
+  font-size: 18px;
+  color: rgb(241, 20, 20);
+}
+
+.dd p {
+  margin: 15px 5px 10px 5px;
+  font-size: 17px;
+}
+
+.fff {
+  color: blue;
+  margin: 40px 0px 20px 520px;
+  font-size: 27px;
+}
+
+.fsection {
+  margin: 0px 0px 700px 80px;
+}
+
+/* Video section styling */
+.vhead {
+  font-size: 30px;
+  color: blue;
+  padding-left: 450px;
+  margin-bottom: 20px;
+  margin-top: 5px;
+}
+
+.vvid {
+  margin-top: -20px;
+  padding-top: 20px;
+  padding-bottom: 60px;
+  background-color: rgb(126, 240, 255);
+}
+
+#one {
+  margin-left: 55px;
+  margin-right: 20px;
+}
+
+#two {
+  margin-left: 20px;
+}
+
+/* Styling the Life at Travelo section */
+.image {
+  margin: 0;
+  display: grid;
+  grid-template-rows: 500px 100px;
+  grid-template-columns: 1fr 30px 30px 30px 30px 30px 1fr;
+  align-items: center;
+  justify-items: center;
+  background-color: #13e4eb;
+}
+
+.xyz {
+  padding-top: 10px;
+  padding-bottom: 2px;
+  padding-left: 610px;
+  font-size: 28px;
+  color: #1405e0;
+  background-color: #13e4eb;
+}
+
+main#carousel {
+  grid-row: 1 / 2;
+  grid-column: 1 / 8;
+  width: 100vw;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  transform-style: preserve-3d;
+  perspective: 600px;
+  --items: 5;
+  --middle: 3;
+  --position: 1;
+  pointer-events: none;
+}
+
+div.item {
+  position: absolute;
+  width: 300px;
+  height: 400px;
+  background-color: coral;
+  --r: calc(var(--position) - var(--offset));
+  --abs: max(calc(var(--r) * -1), var(--r));
+  transition: all 0.25s linear;
+  transform: rotateY(calc(-10deg * var(--r))) translateX(calc(-300px * var(--r)));
+  z-index: calc((var(--position) - var(--abs)));
+}
+
+div.item:nth-of-type(1) {
+  --offset: 2;
+}
+
+div.item:nth-of-type(2) {
+  --offset: 1;
+}
+
+div.item:nth-of-type(3) {
+  --offset: 3;
+}
+
+div.item:nth-of-type(4) {
+  --offset: 4;
+}
+
+div.item:nth-of-type(5) {
+  --offset: 5;
+}
+
+input:nth-of-type(1) {
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+}
+
+input:nth-of-type(1):checked~main#carousel {
+  --position: 1;
+}
+
+input:nth-of-type(2) {
+  grid-column: 3 / 4;
+  grid-row: 2 / 3;
+}
+
+input:nth-of-type(2):checked~main#carousel {
+  --position: 2;
+}
+
+input:nth-of-type(3) {
+  grid-column: 4 /5;
+  grid-row: 2 / 3;
+}
+
+input:nth-of-type(3):checked~main#carousel {
+  --position: 3;
+}
+
+input:nth-of-type(4) {
+  grid-column: 5 / 6;
+  grid-row: 2 / 3;
+}
+
+input:nth-of-type(4):checked~main#carousel {
+  --position: 4;
+}
+
+input:nth-of-type(5) {
+  grid-column: 6 / 7;
+  grid-row: 2 / 3;
+}
+
+input:nth-of-type(5):checked~main#carousel {
+  --position: 5;
+}
+
+/* Newsletter section designing */
+.newsletter {
+  padding-top: 30px;
+  padding-bottom: 20px;
+  background-image: url("myimages/lands.jpg");
+  background-repeat: no-repeat;
+  background-size: 1500px 300px;
+}
+
+#titlee {
+  padding-left: 550px;
+  padding-bottom: 15px;
+  margin-top: -10px;
+  color: orangered;
+  font-size: 30px;
+}
+
+.ppp {
+  color: rgb(78, 235, 5);
+  font-size: 18px;
+  padding-left: 480px;
+}
+
+#buttton {
+  margin: 15px 0px 10px 470px;
+  width: 480px;
+  padding: 10px 0px 10px 0px;
+  font-size: 15px;
+  text-align: center;
+  border-radius: 12px;
+}
+
+.btn4 {
+  color: white;
+  background-color: rgb(255, 111, 0);
+  padding: 10px 20px 10px 20px;
+  font-size: 18px;
+  border-radius: 12px;
+}
+
+.btn4:hover {
+  background-color: rgb(255, 36, 2);
+  cursor: pointer;
+}
+
+/* Designing the Contact section */
+.contact {
+  display: flex;
+  flex-direction: row;
+}
+
+.map {
+  width: 50%;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  background-color: #f6cffa;
+  margin-left: 1px;
+  padding-left: 200px;
+  width: 70%;
+}
+
+.ccaption {
+  color: purple;
+  font-size: 30px;
+  font-weight: 700;
+  padding-top: 25px;
+  padding-left: 90px;
+  margin-bottom: 20px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.cbtn,
+.field,
+.input {
+  border-radius: 10px;
+  width: 60%;
+  border: none;
+  outline: none;
+}
+
+.clabel {
+  color: purple;
+  font-size: 18px;
+  margin-bottom: 12px;
+}
+
+.input {
+  margin-bottom: 21px;
+  font-size: 15px;
+  padding: 12px 10px;
+}
+
+.field {
+  padding: 10px 5px;
+  resize: none;
+}
+
+.cbtn {
+  color: #efefef;
+  text-transform: uppercase;
+  padding: 10px 0;
+  background-color: #6e4257;
+  font-size: 18px;
+  margin-top: 22px;
+}
+
+.cbtn:hover {
+  background-color: #4a2c3a;
+  cursor: pointer;
+}
+
+/* Stying Footer section */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer {
+  background-color: #24262b;
+  padding: 30px 0;
+}
+
+.footer-col {
+  padding-left: 600px;
+}
+
+.footer-col h4 {
+  font-size: 18px;
+  color: #ffffff;
+  text-transform: capitalize;
+  margin-bottom: 25px;
+  padding-left: 70px;
+  font-weight: 500;
+  position: relative;
+}
+
+.footer-col .social-links a {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  background-color: rgba(255, 255, 255, 0.2);
+  margin: 0 10px 10px 0;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  color: #ffffff;
+  transition: all 0.5s ease;
+}
+
+.footer-col .social-links a:hover {
+  color: #24262b;
+  background-color: #ffffff;
+}
